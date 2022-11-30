@@ -1,7 +1,7 @@
 const fs = require("fs");
 const process = require("process");
-let option;
 let pathDir = process.argv[2];
+let option = pathDir;
 let pathFile = pathDir +"/index.html";
 
 switch (option) {
