@@ -11,7 +11,7 @@ switch (option) {
     //Método para crear directorios
         fs.mkdir(pathDir,(err) => {
             if (err){
-                return console.error("Can't be create the folder, because it has allready exists",err);
+                 console.error("Can't be create the folder, because it has allready exists",err);
             } else {
                 console.log("The folder has been created");
               }
