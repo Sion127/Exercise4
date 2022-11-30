@@ -3,7 +3,8 @@ const process = require("process");
 let option;
 let pathDir = process.argv[2];
 let pathFile = pathDir +"/index.html";
-switch (option){
+
+switch (option) {
 
     case "HTML":
 
